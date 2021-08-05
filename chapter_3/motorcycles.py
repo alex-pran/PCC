@@ -31,3 +31,26 @@ print(car_brand)
 
 del car_brand[4] #remove item in list
 print(car_brand)
+print(f"\n\n++++++++++++++++++++++++++++++++")
+
+popped_car_brand = car_brand.pop()
+print(car_brand)
+print(popped_car_brand)
+
+print(f"\n\n++++++++++++++++++++++++++++++++")
+
+my_list = [1,2,3,4,5]
+last = my_list.pop()
+print(last)
+
+four = my_list.pop(-1)
+print(four)
+
+three = my_list.pop(-2)
+print(three)
+
+two = my_list.pop(-3)
+print(two)
+
+one = my_list.pop(-4)
+print(one)
