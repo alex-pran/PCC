@@ -26,7 +26,7 @@ print(f"\n{car_brand[3]}")
 
 print(car_brand)
 
-car_brand.insert(0, 'bmw') # name.instert(0, - add text in to the list
+car_brand.insert(0, 'bmw') # name.instert(0), - add text in to the list
 print(car_brand)
 
 del car_brand[4] #remove item in list

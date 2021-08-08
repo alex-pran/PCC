@@ -11,6 +11,7 @@ print(message)
 #3.2 Your Own List
 
 vehicles = ['bus', 'truck', 'pickup', 'sedan', 'hatchback', 'wagon',]
+vehicles.sort()
 print(vehicles)
 
 message = f"I would like to own a {vehicles[1].title()}"
