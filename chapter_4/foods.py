@@ -9,3 +9,14 @@ print(my_foods)
 
 print("\nMy friend's favorite foods are:")
 print(friend_food)
+
+
+my_drink = ['soda', 'wine', 'beer', 'vodka']
+friend_drink = my_drink[:]
+print(my_drink)
+
+friend_drink.append('champagne')
+my_drink.append('cognac')
+
+print(my_drink)
+print(friend_drink)

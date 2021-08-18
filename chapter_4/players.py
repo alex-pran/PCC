@@ -11,5 +11,5 @@ print(players[-2:])
 print("\n----------------")
 
 print("Here are first three players on my team:")
-for player in players[:3]:
+for player in players[:2]:
     print(player.title())

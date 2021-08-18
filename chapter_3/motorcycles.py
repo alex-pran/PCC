@@ -41,16 +41,23 @@ print(f"\n\n++++++++++++++++++++++++++++++++")
 
 my_list = [1,2,3,4,5]
 last = my_list.pop()
-print(last)
+print(f"5 = {last}")
 
-four = my_list.pop(-1)
-print(four)
+one = my_list.pop(0)
+print(f"1 = {one}")
+`
+two = my_list.pop(-3)
+print(f"2 = {two}")
 
 three = my_list.pop(-2)
-print(three)
+print(f"3 = {three}")
 
-two = my_list.pop(-3)
-print(two)
+four = my_list.pop(-1)
+print(f"4 = {four}")
 
-one = my_list.pop(-4)
-print(one)
+print(f"\n\n++++++++++++++++++++++++++++++++")
+
+cats = ['fluffy', 'fox']
+
+my_cat = cats.pop(-2)
+print(f"i have a cat, its name {my_cat.title()}")
