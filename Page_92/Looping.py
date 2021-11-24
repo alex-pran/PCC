@@ -23,3 +23,8 @@ db = {
 for key, value in db.items():
     print(f"\nKey: {key}")
     print(f"Value: {value}")
+
+
+print("------------------------------------------------")
+
+
